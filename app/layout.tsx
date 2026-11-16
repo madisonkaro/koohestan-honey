@@ -1,26 +1,32 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Inter, Vazirmatn } from "next/font/google";
-import "./globals.css";
-import { LangProvider } from "../lib/lang";
-import CustomCursor from "../components/CustomCursor";
+import localFont from "next/font/local";
 
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["300", "400"],
+// Fonts are self-hosted (app/fonts/) so the build never needs to reach
+// Google Fonts — the Vercel build failed on next/font/google's runtime fetch.
+const cormorant = localFont({
+  src: [
+    { path: "./fonts/cormorant-300.woff2", weight: "300", style: "normal" },
+    { path: "./fonts/cormorant-400.woff2", weight: "400", style: "normal" },
+  ],
   variable: "--font-cormorant",
   display: "swap",
 });
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["300", "400"],
+const inter = localFont({
+  src: [
+    { path: "./fonts/inter-300.woff2", weight: "300", style: "normal" },
+    { path: "./fonts/inter-400.woff2", weight: "400", style: "normal" },
+  ],
   variable: "--font-inter",
   display: "swap",
 });
 
-const vazirmatn = Vazirmatn({
-  subsets: ["arabic"],
-  weight: ["300", "400", "500"],
+const vazirmatn = localFont({
+  src: [
+    { path: "./fonts/vazirmatn-300.woff2", weight: "300", style: "normal" },
+    { path: "./fonts/vazirmatn-400.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/vazirmatn-500.woff2", weight: "500", style: "normal" },
+  ],
   variable: "--font-vazirmatn",
   display: "swap",
 });
