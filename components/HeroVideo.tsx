@@ -12,10 +12,10 @@ import { useLang } from "../lib/lang";
  * bee-journey version that will replace these files at the SAME paths, so no
  * code change is needed when the new video lands:
  *   - /hero-scrub.mp4  (keyframe-per-frame, used for scroll scrubbing)
- *   - /hero-poster.jpg  (poster frame)
+ *   - /hero-poster.webp  (poster frame)
  */
 const VIDEO_SRC = "/hero-scrub.mp4";
-const POSTER_SRC = "/hero-poster.jpg";
+const POSTER_SRC = "/hero-poster.webp";
 
 /** Scroll-progress ranges (fractions of the whole hero) for each overlay. */
 const OVERLAY_RANGES: [number, number][] = [

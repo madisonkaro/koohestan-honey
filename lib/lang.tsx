@@ -93,7 +93,7 @@ const STRINGS: Record<Lang, Strings> = {
         chip: "Wild mountain flora",
         price: "1,480,000 Toman",
         perKg: "per kg",
-        image: "/products/mountain.png",
+        image: "/products/mountain.webp",
         alt: "Glass jar of mountain honey with a wooden dipper",
       },
       {
@@ -103,7 +103,7 @@ const STRINGS: Record<Lang, Strings> = {
         chip: "Thyme blossom",
         price: "1,280,000 Toman",
         perKg: "per kg",
-        image: "/products/thyme.png",
+        image: "/products/thyme.webp",
         alt: "Glass jar of thyme honey with a wooden dipper",
       },
       {
@@ -113,7 +113,7 @@ const STRINGS: Record<Lang, Strings> = {
         chip: "Astragalus bloom",
         price: "980,000 Toman",
         perKg: "per kg",
-        image: "/products/astragalus.png",
+        image: "/products/astragalus.webp",
         alt: "Glass jar of astragalus honey with a wooden dipper",
       },
     ],
@@ -167,7 +167,7 @@ const STRINGS: Record<Lang, Strings> = {
         chip: "گل‌های وحشی کوهستان",
         price: "۱٬۴۸۰٬۰۰۰ تومان",
         perKg: "هر کیلو",
-        image: "/products/mountain.png",
+        image: "/products/mountain.webp",
         alt: "شیشه عسل کوهستان با ملاقه چوبی",
       },
       {
@@ -177,7 +177,7 @@ const STRINGS: Record<Lang, Strings> = {
         chip: "شکوفه‌ی آویشن",
         price: "۱٬۲۸۰٬۰۰۰ تومان",
         perKg: "هر کیلو",
-        image: "/products/thyme.png",
+        image: "/products/thyme.webp",
         alt: "شیشه عسل آویشن با ملاقه چوبی",
       },
       {
@@ -187,7 +187,7 @@ const STRINGS: Record<Lang, Strings> = {
         chip: "شکوفه‌ی گون",
         price: "۹۸۰٬۰۰۰ تومان",
         perKg: "هر کیلو",
-        image: "/products/astragalus.png",
+        image: "/products/astragalus.webp",
         alt: "شیشه عسل گون با ملاقه چوبی",
       },
     ],
