@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import "./globals.css";
+import { LangProvider } from "../lib/lang";
+import CustomCursor from "../components/CustomCursor";
 
 // Fonts are self-hosted (app/fonts/) so the build never needs to reach
 // Google Fonts — the Vercel build failed on next/font/google's runtime fetch.
